@@ -1,0 +1,100 @@
+body {
+  background-color: #f4f1ea;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 30px;
+}
+.Inicio {
+  text-align: center;
+}
+
+.pontos-card {
+  display: flex;
+  margin-top: 10px;
+}
+
+.Farol {
+  background-color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 20px;
+  width: 400px;
+  margin: 5px;
+  text-align: center;
+}
+
+.Farol button {
+  border: 2px solid;
+  border-radius: 5px;
+  background-color: rgb(73, 124, 73);
+  color: white;
+  cursor: pointer;
+}
+.forte {
+  background-color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 20px;
+  width: 400px;
+  margin: 5px;
+  text-align: center;
+}
+
+.forte button {
+  border: 2px solid;
+  border-radius: 5px;
+  background-color: rgb(73, 124, 73);
+  color: white;
+  cursor: pointer;
+}
+.morro {
+  background-color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 20px;
+  width: 400px;
+  margin: 5px;
+  text-align: center;
+}
+
+.morro button {
+  border: 2px solid;
+  border-radius: 5px;
+  background-color: rgb(73, 124, 73);
+  color: white;
+  cursor: pointer;
+}
+
+.dunas {
+  background-color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 20px;
+  width: 400px;
+  margin: 5px;
+  text-align: center;
+}
+
+.dunas button {
+  border: 2px solid;
+  border-radius: 5px;
+  background-color: rgb(73, 124, 73);
+  color: white;
+  cursor: pointer;
+}
+.aquario {
+  background-color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 20px;
+  width: 400px;
+  margin: 5px;
+  text-align: center;
+}
+
+.aquario button {
+  border: 2px solid;
+  border-radius: 5px;
+  background-color: rgb(73, 124, 73);
+  color: white;
+  cursor: pointer;
+}
