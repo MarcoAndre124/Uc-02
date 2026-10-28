@@ -1,0 +1,53 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: rgb(214, 169, 85);
+}
+.lista-musicas {
+  display: flex;
+}
+h3 {
+  text-align: center;
+  color: #cccccc;
+}
+.musica {
+  width: 300px;
+  border-radius: 15px;
+  background-color: #fefefe;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+}
+.musica h4 {
+  color: goldenrod;
+  align-items: center;
+}
+.musica img {
+  width: 260px;
+  border-radius: 5px;
+}
+.musica h5 {
+  color: goldenrod;
+}
+.musica h6 {
+  color: goldenrod;
+}
+.topo-card-musica{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.topo-card-musica{
+ color: goldenrod;
+ padding: 3px;
+}
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    color:goldenrod;
+}
+.musica audio{
+    display: flex;
+    
+}
