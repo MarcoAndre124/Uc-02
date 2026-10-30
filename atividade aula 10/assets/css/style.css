@@ -1,0 +1,75 @@
+body {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700px;
+  font-style: normal;
+  background-color: #000000
+}
+header {
+  background-color: #E4F2FB;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+header img {
+  height: 150px;
+
+}
+nav {
+  display: flex;
+  gap: 15px;
+}
+
+nav button{
+    border-radius: 10px;
+   color:#045f99;
+gap: 8px;
+   background-color: white;
+   border: 0px;
+   padding: 10px;
+}
+.principal{
+    text-align: center;
+    padding: 35px;
+}
+.cards{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+  
+   
+}
+.cards img{
+    border-radius: 15px;
+border: 1px solid;
+}
+.card1{
+   text-align: center;
+   padding: 10px 30px;
+    border-radius: 15px;
+    width:500px;
+}
+.card2{
+   text-align: center;
+   padding: 10px 30px;
+    border-radius: 15px;
+    width: 500px;
+}
+.card3{
+ text-align: center;
+   padding: 10px 30px;
+    border-radius: 15px;
+    width: 500px;
+}
+.espaço{
+    margin: 100px;
+    
+}
+footer{
+    background-color: #045f99;
+   text-align: center;
+}
+.info{
+    padding: 25px;
+}

@@ -1,0 +1,33 @@
+body {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700px;
+  font-style: normal;
+  background-color: #cccc;
+}
+header {
+  background-color: #34efdb;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+header img {
+  height: 100px;
+}
+nav {
+  display: flex;
+  gap: 15px;
+}
+nav a {
+  text-decoration: none;
+  font-size: 40px;
+  color: #045f99;
+}
+nav button{
+    border-radius: 10px;
+   color:#045f99;
+gap: 8px;
+   background-color: white;
+   border: 0px;  
+}
