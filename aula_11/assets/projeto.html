@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+    <!-- bootstrap cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe"
+      crossorigin="anonymous"
+    />
+
+    <!-- bootstrap icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css"
+    />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <header>
+      <img src="./css/img/Topo_Site-DPH7GnTL.png" alt="Imagem logo senac" />
+    </header>
+    <main>
+      <div class="form-cadastro">
+      
+        <form action="" method="get">
+              <h3>Formulario Senac</h3>
+          <div class="uma-coluna">
+            
+            <label for="name">Nome Completo</label>
+            <input type="name" name="Nome completo sem abreviaçoes" required />
+          </div>
+
+          <div class="duas-colunas">
+            <label for="cpf">CPF</label>
+            <input type="text" name="CPF" required />
+            <label for="data-nascimento"> Data de Nascimento</label>
+            <input type="date" name="data-nascimento" />
+          </div>
+
+          <div class="duas-colunas">
+            <label for="telefone"> Contato Telefonico (DDD)</label>
+            <input type="tel" name="telefone" />
+            <label for="e-mail"> E-mail</label>
+            <input type="email" name="Email" />
+          </div>
+
+          <div class="duas-colunas">
+            <label for="cep">CEP</label>
+            <input type="text" name="CEP" />
+            <label for="rua">Rua</label>
+            <input type="text" name="Rua" />
+          </div>
+          <div class="tres-colunas">
+            <label for="numero">Número</label> <br />
+            <input type="text" name="numero" /> <br />
+            <label for="complemento">Complemento</label> <br />
+            <input type="text" name="complemento" /> <br />
+            <label for="bairro">Bairro</label> <br />
+            <input type="text" name="bairro" /> <br />
+          </div>
+          <div class="duas-colunas">
+            <label for="Cidade">Cidade</label>
+            <input type="text" name="Cidade" />
+            <label for="estado uf">Estado UF</label>
+            <input type="text" name="estado uf" />
+          </div>
+
+          <div class="tres-colunas">
+            <label for="escola">Escolaridade</label>
+            <select name="escolaridade" id="escolaridade" required>
+              <option value="">Selecione uma opcao</option>
+              <option value="fundamental">Ensino Fundamental</option>
+              <option value="medio">Ensino Médio</option>
+              <option value="superior">Ensino Superior</option>
+            </select>
+
+            <label for="sexo">Sexo</label>
+            <select name="sexo" id="sexo" required>
+              <option value="">Selecione uma opcao</option>
+              <option value="masculino">Masculino</option>
+              <option value="feminino">Feminino</option>
+              <option value="superior">Ensino Superior</option>
+            </select>
+
+            <select name="raça" id="raça">
+              <option value="">Selecione uma opcao</option>
+              <option value="masculino">branco</option>
+              <option value="feminino">negro</option>
+              <option value="superior">Ensino Superior</option>
+            </select>
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
