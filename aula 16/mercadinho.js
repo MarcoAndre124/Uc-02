@@ -9,7 +9,7 @@ const valorpago = Number(entrada("Qual valor da compra?"))
 const valorcompra = Number(entrada("Qual valor entregue?"))
 const total = valorcompra - valorpago
 
-console.log("Valor da compra:", valorpago)
+console.log("Valor da compra:", valorpago.toFixed(2))
 console.log("Valor Recebido:", valorcompra)
-console.log("Troco:",total)
+console.log("Troco: R$",total.toFixed(2))
 

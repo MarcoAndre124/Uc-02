@@ -12,5 +12,5 @@ const largura = Number(entrada("Qual largura?"))
 const total = comprimento * largura 
 
 console.log("Comprimento (m):",comprimento)
-console.log("Largura (m):",largura)
-console.log("Area do piso",total)
+console.log("Largura (m):",largura.toFixed(1))
+console.log("Area do piso: ", total.toFixed(2),  "m²")
